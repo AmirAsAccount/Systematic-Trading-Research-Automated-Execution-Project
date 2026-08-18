@@ -1,0 +1,18 @@
+event,ticker,time,price,value,reason,headline
+ENTRY,TEST,2026-07-15T05:11:50.404036+00:00,5.3800,qty=1,CONFIRMED_REACTION,Company announces positive Phase 3 results
+ENTRY,TEST,2026-07-15T05:13:11.618178+00:00,5.3800,qty=1,CONFIRMED_REACTION,Company announces positive Phase 3 results
+ENTRY,TEST,2026-07-15T05:14:00.321196+00:00,5.3800,qty=1,CONFIRMED_REACTION,Company announces positive Phase 3 results
+ENTRY,IQST,2026-07-16T12:05:19.362627+00:00,1.1491,qty=1,CONFIRMED_REACTION,"IQSTEL Reports H1 Preliminary Net Revenue Of ~$207M, Up 59 YoY"
+EXIT,IQST,2026-07-16T12:11:10.392211+00:00,1.1110,-3.32,Anchored-VWAP failure ($1.11 < $1.16) + bearish OBV divergence,
+ENTRY,KAPA,2026-07-22T12:41:30.293917+00:00,0.4054,qty=1,SENTIMENT_AND_TICK_VOLUME_CONFIRMED,Kairos Pharma Partners With Bayer To Mull ENV-105 Inhibitor In Combination With Bayer’s XOFIGO
+ENTRY,LABT,2026-07-22T12:42:45.478737+00:00,6.4500,qty=1,SENTIMENT_AND_TICK_VOLUME_CONFIRMED,Lakewood-Amedex Biotherapeutics Announces Resistance Data For Nu-3 In Alignment With Presidential Advisory Council On Combating Antibiotic Resistant Bacteria
+EXIT,KAPA,2026-07-22T12:42:47.325589+00:00,0.3858,-4.83,"Trailing swing-stop break (floor $0.39, max-loss 10%)",
+EXIT,LABT,2026-07-22T12:42:48.355104+00:00,6.4500,+0.00,Bearish OBV/price swing divergence,
+ENTRY,HIHO,2026-07-22T13:13:30.407042+00:00,1.1300,qty=1,SENTIMENT_AND_TICK_VOLUME_CONFIRMED,Highway Holdings Inks Letter Of Intent With Guangdong Huahu New Energy Technology To Integrate Guangdong&#39;s Products And Technology With Highway Holdings&#39; Global Production Capabilities
+ENTRY,LABT,2026-07-22T13:14:52.954523+00:00,5.7995,qty=1,SENTIMENT_AND_TICK_VOLUME_CONFIRMED,Lakewood-Amedex Biotherapeutics shares are trading higher after the company announced resistance data for Nu-3.
+EXIT,HIHO,2026-07-22T13:20:24.916960+00:00,1.1200,-0.88,"Trailing swing-stop break (floor $1.14, max-loss 10%)",
+EXIT,LABT,2026-07-22T13:24:13.178395+00:00,6.1600,+6.22,"Trailing swing-stop break (floor $6.17, max-loss 10%)",
+ENTRY,LVWR,2026-07-24T08:37:54.696342+00:00,1.4300,qty=54,SENTIMENT_AND_TICK_VOLUME_CONFIRMED,Why SAP Shares Are Trading Higher By 6%; Here Are 20 Stocks Moving Premarket
+EXIT,LVWR,2026-07-24T08:38:08.562621+00:00,1.2100,-15.38,Fast EMA exit (9-period) — 1m close below EMA,
+ENTRY,CRIS,2026-07-24T18:05:01.439292+00:00,4.9200,qty=23,FDA_APPROVAL_FASTPATH,"Curis Gains As Blood Cancer Drug Progresses, December Readout in Focus"
+EXIT,CRIS,2026-07-24T18:32:10.580115+00:00,4.8400,-1.63,Fast EMA exit (9-period) — 1m close below EMA,

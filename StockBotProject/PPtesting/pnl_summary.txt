@@ -1,0 +1,21 @@
+STOCK P&L BACKTEST SUMMARY
+bar_duration   : 15 minutes
+tau            : 0.4
+horizon        : 5 bars (75min)
+entry          : Open[t+1]
+exit           : Close[event] OR Close[t+horizon]
+filter         : green signal bar (bullish only)
+evaluation set : TEST ONLY
+n_trades        : 34
+n_win           : 16
+n_loss          : 18
+win_rate        : 0.4706
+mean_ret        : -2.0384
+median_ret      : -0.2546
+mean_win        : 3.6446
+mean_loss       : -7.0899
+profit_factor   : 0.457
+total_pct       : -69.3053
+cum_peak        : 34.0481
+max_drawdown    : -103.3534
+sharpe_proxy    : -0.2445

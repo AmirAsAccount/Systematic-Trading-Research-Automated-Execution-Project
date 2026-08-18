@@ -1,0 +1,8 @@
+CRYPTO BACKTEST SUMMARY
+Horizon        : 5 bars
+Entry          : signal at t, entry at t+1
+Evaluation set : TEST ONLY (split=='test')
+p_burst source : filtered forward algorithm (no future info)
+Lead-time sig  : 76/78 symbols
+Best F1        : 0.552
+Mean hit rate  : 0.371

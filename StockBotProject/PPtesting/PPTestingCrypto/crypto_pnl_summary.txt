@@ -1,0 +1,28 @@
+CRYPTO P&L BACKTEST SUMMARY
+source_tf      : 5m
+active_tf      : 5m
+tau            : 0.4
+horizon        : 5 bars
+entry          : Open[t+1]
+exit           : Close[event] OR Close[t+horizon]
+sparse_entry   : False
+vol_ratio_min  : 3.0
+vol_zscore_min : 1.0
+rva_vel_min    : 0.0
+ret_signed_min : 0.0
+hmm_exit       : False
+hmm_exit_cap   : 20
+evaluation set : TEST ONLY
+n_trades        : 980
+n_win           : 432
+n_loss          : 548
+win_rate        : 0.4408
+mean_ret        : -0.04
+median_ret      : -0.0398
+mean_win        : 0.4878
+mean_loss       : -0.456
+profit_factor   : 0.843
+total_pct       : -39.1826
+cum_peak        : 3.7643
+max_drawdown    : -44.5814
+sharpe_proxy    : -0.0588

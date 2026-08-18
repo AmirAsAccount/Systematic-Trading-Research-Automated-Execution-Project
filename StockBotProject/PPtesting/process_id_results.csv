@@ -1,0 +1,24 @@
+ticker,n_events,n_bars,dispersion,winner_aic,winner_bic,winner,aic_hpp,aic_nhpp,aic_hawkes,aic_mhawkes,aic_coxhawkes,branching_ratio,ogata_ks,ogata_p,ogata_pass,interpretation
+AHMA,6,163.0,0.7,Renewal,Renewal,Renewal,53.62,55.47,57.58,59.58,61.44,,,,False,Only time since last event matters. Use a survival/hazard model for timing.
+ARQQ,27,500.0,1.5759,Cox,Cox,Cox,213.61,208.79,210.63,211.8,208.84,,,,False,Clustering driven by latent external regime. Identify the latent variable with more covariates.
+BRUN,8,365.0,2.35,Cox,Cox,Cox,79.13,71.56,71.61,73.05,68.16,,,,False,Clustering driven by latent external regime. Identify the latent variable with more covariates.
+CAST,6,68.0,2.0333,Cox,Cox,Cox,43.13,41.92,44.28,46.27,46.51,,,,False,Clustering driven by latent external regime. Identify the latent variable with more covariates.
+CUPR,22,296.0,1.0818,Renewal,Renewal,Renewal,160.37,160.4,162.18,164.18,162.31,,,,False,Only time since last event matters. Use a survival/hazard model for timing.
+ELVR,4,,,,,INSUFFICIENT_DATA,,,,,,,,,,
+FAMI,24,500.0,0.8,Renewal,Renewal,Renewal,195.75,196.42,199.73,201.73,202.42,,,,False,Only time since last event matters. Use a survival/hazard model for timing.
+GLXG,33,440.0,1.7136,Cox,Cox,Cox,238.96,240.01,240.28,241.62,234.73,,,,False,Clustering driven by latent external regime. Identify the latent variable with more covariates.
+HQ,7,60.0,0.9357,Renewal,Renewal,Renewal,46.08,48.06,49.09,50.98,52.98,,,,False,Only time since last event matters. Use a survival/hazard model for timing.
+HUBC,49,500.0,1.5296,Cox,Cox,Cox,327.63,327.37,327.38,329.38,314.98,,,,False,Clustering driven by latent external regime. Identify the latent variable with more covariates.
+LUD,23,326.0,0.9804,Renewal,Renewal,Renewal,169.96,165.63,173.08,174.35,169.29,,,,False,Only time since last event matters. Use a survival/hazard model for timing.
+MTEN,40,500.0,1.7,Cox,Cox,Cox,284.06,285.69,278.06,278.97,280.69,,,,False,Clustering driven by latent external regime. Identify the latent variable with more covariates.
+PRFX,30,500.0,0.6333,Renewal,Renewal,Renewal,230.8,232.8,234.8,235.7,233.38,,,,False,Only time since last event matters. Use a survival/hazard model for timing.
+QUCY,33,500.0,0.8045,Renewal,Renewal,Renewal,247.39,246.52,247.83,249.83,250.14,,,,False,Only time since last event matters. Use a survival/hazard model for timing.
+RDGT,39,500.0,1.6654,Renewal,Renewal,Renewal,278.98,271.24,277.78,278.73,275.36,,,,False,Only time since last event matters. Use a survival/hazard model for timing.
+RGNT,9,132.0,1.4389,Cox,Cox,Cox,68.34,69.17,70.61,72.35,73.96,,,,False,Clustering driven by latent external regime. Identify the latent variable with more covariates.
+RTB,49,500.0,0.999,Renewal,Renewal,Renewal,327.63,326.32,331.0,332.92,331.93,,,,False,Only time since last event matters. Use a survival/hazard model for timing.
+SDOT,45,500.0,1.8611,Cox,Cox,Cox,308.72,298.2,303.47,305.46,300.57,,,,False,Clustering driven by latent external regime. Identify the latent variable with more covariates.
+SLMT,38,500.0,1.0474,Renewal,Renewal,Renewal,273.85,274.95,271.56,271.89,273.83,,,,False,Only time since last event matters. Use a survival/hazard model for timing.
+UBXG,53,500.0,2.6519,Cox,Cox,Cox,345.9,347.66,327.55,328.88,330.55,,,,False,Clustering driven by latent external regime. Identify the latent variable with more covariates.
+VSME,43,500.0,1.2221,Renewal,Renewal,Renewal,298.99,297.23,292.9,293.93,294.46,,,,False,Only time since last event matters. Use a survival/hazard model for timing.
+WLDS,35,500.0,0.6214,Renewal,Renewal,Renewal,258.15,258.58,259.88,261.69,262.44,,,,False,Only time since last event matters. Use a survival/hazard model for timing.
+WYFI,7,215.0,1.5071,Cox,Cox,Cox,63.95,65.94,67.16,68.65,70.65,,,,False,Clustering driven by latent external regime. Identify the latent variable with more covariates.

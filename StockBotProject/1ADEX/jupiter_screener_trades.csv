@@ -1,0 +1,2 @@
+timestamp,symbol,mint,entry_price,exit_price,stop_pct,target_pct,pnl_pct,reason,held_seconds
+2026-07-06T05:53:50.159036+00:00,ANSEM'D,5vE1yh9QGEgNhMGABZhQU93CXYaKzSEKr95AgU8Dpump,0.00036464595393964465,0.000280216069475146,20.0,40.0,-23.154,stop_loss,423.1

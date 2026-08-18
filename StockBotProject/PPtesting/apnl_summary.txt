@@ -1,0 +1,27 @@
+ALT P&L BACKTEST SUMMARY
+strategy       : price_compression + bullish_vol_divergence
+timeframe      : 1h
+bar_minutes    : 60
+vol_mult       : 1.5
+vol_window     : 20
+atr_window     : 10
+compress_mult  : 0.75
+atr_thresh     : 0.03
+profit_target  : 0.03
+stop_loss      : 0.02
+horizon        : 5 bars
+train_frac     : 0.6
+evaluation_set : TEST ONLY
+n_trades        : 46
+n_win           : 18
+n_loss          : 28
+win_rate        : 0.3913
+mean_ret        : -0.3139
+median_ret      : -2.0
+mean_win        : 1.9951
+mean_loss       : -1.7982
+profit_factor   : 0.713
+total_pct       : -14.4391
+cum_peak        : 3.0
+max_drawdown    : -17.4391
+sharpe_proxy    : -0.1527
