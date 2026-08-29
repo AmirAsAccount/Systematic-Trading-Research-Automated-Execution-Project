@@ -1,9 +1,0 @@
-BACKTEST SUMMARY [ONLINE WALK-FORWARD, DYNAMIC MODEL]
-Horizon        : 5 bars
-Entry          : signal at t, entry at t+1
-Evaluation set : TEST ONLY (split=='test'), online-updated p_burst
-lr_w           : 0.01  (decay=0.001)
-lr_beta        : 0.005  (decay=0.001)
-Lead-time sig  : 14/15 symbols
-Best F1        : 0.518
-Mean hit rate  : 0.278

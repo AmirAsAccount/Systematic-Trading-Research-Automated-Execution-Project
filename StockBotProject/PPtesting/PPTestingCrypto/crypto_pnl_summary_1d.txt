@@ -1,8 +1,0 @@
-CRYPTO P&L BACKTEST SUMMARY
-source_tf      : 5m
-active_tf      : 1d
-tau            : 0.4
-horizon        : 5 bars
-entry          : Open[t+1]
-exit           : Close[event] OR Close[t+horizon]
-evaluation set : TEST ONLY

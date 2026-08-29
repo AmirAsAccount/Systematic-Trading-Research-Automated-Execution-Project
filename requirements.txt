@@ -1,0 +1,9 @@
+numpy
+pandas
+requests
+lxml
+alpaca-py
+finviz
+vaderSentiment
+pysentiment2
+python-dotenv

@@ -1,8 +1,0 @@
-BACKTEST SUMMARY
-Horizon        : 15 bars
-Entry          : signal at t, entry at t+1
-Evaluation set : TEST ONLY (split=='test')
-p_burst source : filtered forward algorithm (no future info)
-Lead-time sig  : 14/15 symbols
-Best F1        : 0.636
-Mean hit rate  : 0.324
